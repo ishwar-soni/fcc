@@ -1,0 +1,62 @@
+body {
+    background-image: linear-gradient(45deg, #ed9dd0, #9d9ded);
+    color: white;
+    font-family: 'Proxima Nova', Robota, Cambria;
+}
+
+#main {
+    max-width: 50%;
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+#description {
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+#survey-form {
+    margin: 10px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+input[type=text], input[type=email], input[type=number], [type=submit], select, textarea {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.form-block {
+    margin: 15px;
+}
+
+fieldset {
+    border: 0;
+    display: flex;
+}
+
+textarea {
+    height: 100px;
+}
+
+#submit {
+    background-color: #4CAF50;
+    border: 0;
+    color: white;
+}
