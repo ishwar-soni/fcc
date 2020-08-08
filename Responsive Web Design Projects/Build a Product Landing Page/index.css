@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(236, 236, 236);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    position: fixed;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    margin-top: 0px;
+}
+
+#header-img {
+    width: 30%;
+    float: left;
+}
+
+#nav-bar {
+    float: right;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    margin-right: 80px;
+}
+
+#form {
+    padding-top: 60px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#email {
+    width: 50%;
+    height: 20px;
+    border: 2px solid;
+}
+
+.form_element {
+    margin: 10px;
+}
+
+#submit {
+    background-color: rgb(255, 174, 0);
+    border: 0px;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 10px;
+}
+
+#features {
+    width: 70%;
+    margin: auto;
+}
+
+.feature-card {
+    clear: both;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    padding: 0px;
+}
+
+.feature-img {
+    display: block;
+    float: left;
+}
+
+.video {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#pricing {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.pricing-card {
+    border: 1px solid;
+    border-radius: 2%;
+    width: 30%;
+    text-align: center;
+    padding: 0px;
+}
+
+.pricing-heading {
+    background-color: rgb(214, 213, 213);
+    margin: 0px;
+    padding: 10px;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
+.pricing-rate {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.pricing-select {
+    border: 0px;
+    background-color: rgb(255, 175, 56);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+footer {
+    width: 80%;
+    background-color: rgb(194, 194, 194);
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#footer-nav {
+    float: right;
+    clear: both;
+}
+
+.footer-nav-link {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+#footer-nav-copyright {
+    float: right;
+    clear: both;
+    color: rgb(73, 73, 73);
+}
+
+@media (max-width: 500px) {
+    body {
+        background-color: blanchedalmond;
+    }
+}
