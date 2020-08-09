@@ -1,3 +1,3 @@
-code-pen link = https://codepen.io/inosama/pen/LYNVELZ?editors=1100
+code-pen link = https://codepen.io/inosama/pen/wvGaGba?editors=1100
 
-![Product Landing Page](https://github.com/ishwar-soni/fcc/blob/master/Responsive%20Web%20Design%20Projects/Build%20a%20Product%20Landing%20Page/product%20landing%20form.png)
+![Technical Documentation Page](https://github.com/ishwar-soni/fcc/blob/master/Responsive%20Web%20Design%20Projects/Build%20a%20Technical%20Documentation%20Page/technical%20documentation%20page.png)
